@@ -3,14 +3,14 @@ numer indeksu: 235062
 # Projekt
 
 ## Temat i plan
-Program będzie zarządzał schroniskiem dla zwierząt. Zawarte będą różnego rodzaju boksy dla poszczególnych zwierząt, którymi będzie można zdalnie sterować: otwierać wybrane drzwi na wybieg lub w celu wpuszczenia osoby do środka(by ta pobawiła się ze zwierzętami, wyczesała koty, sprawdziła ich zdrowie, itd.), uzupełniać zasoby budynków transportując je z głównego magazynu. 
+Program będzie zarządzał schroniskiem dla zwierząt. Zawarte będą różnego rodzaju boksy dla poszczególnych zwierząt.Schronisko zatrudnia pracowników, którzy mogą bawić się ze zwierzętami, karmić je oraz uzupełniać magazyn zamawiając wybraną karmę.
 
-Będą przechowywane dane na temat ilości zwierząt z danych gatunków, ilości pracowników, boksów w budynkach i zasobów. Na początku użytkownik może wybrać jakie gatunki zwierząt trafią do których boksów. Komunikaty będą informować o konieczności wykonania zadań.
+Będą przechowywane dane na temat ilości zwierząt z danych gatunków, boksów i zasobów. Na początku użytkownik może wybrać rozmiar boksów i jakie gatunki zwierząt trafią do których boksów (psy, koty czy studenci). Komunikaty będą informować o konieczności wykonania zadań. Będzie wyświetlana ilość zasobów i aktualny stan zwierząt.
 
-Dwa razy dziennie określone ilości pokarmu będą wydawane automatycznie. Po 15 wykonanych czynnościach (nie wliczając karmienia) dzień dla schroniska będzie się kończył.
+Po 15 wykonanych czynnościach dzień dla schroniska będzie się kończył i aktualne potrzeby zwierząt będą zmieniane na kolejny dzień.
 
 ## Harmonogram
 1. Stworzenie klas bazowych i pochodnych (boksy, zwierzęta, pracownicy, pokarmy)
 2. Napisanie funkcji sterujacych obiektem - czynności do wykonania
-3. Rozplanowanie logistyki, wywolanie funkcji
-4. Dokumentacja i ostatnie poprawki
+3. Rozplanowanie logistyki, wywolanie funkcji w mainie
+4. Dokumentacja i ostatnie poprawki, sprawdzenie błędów
